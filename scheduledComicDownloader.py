@@ -39,8 +39,8 @@ if comicDate > lastTime:
       imageFile.write(chunk)
    imageFile.close()
 
-   accountSID = 'AC076e8901facea8276713211a58129707'
-   authToken = '3eb8cd89a72450c18d8a4a11418459d5'
+   accountSID = 'AC63db3733f2649b2e5100a4ec8596f610'
+   authToken = 'c81a0dfa24a1e3ec5238cc3289d55fc0'        // updated this stuff
    twilioCli = Client(accountSID, authToken)
    twilioNum = '(910) 665-7494'
    myNum = '(209) 652-7598'
